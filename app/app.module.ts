@@ -12,7 +12,9 @@ import { HomeComponent }        from './home.component';
 import { DashboardComponent }   from './dashboard.component';
 import { HeroDetailComponent }  from './hero-detail.component';
 import { HeroesComponent }      from './heroes.component';
+import { HeroSearchComponent }  from './hero-search.component';
 import { HeroService }          from './hero.service';
+import './rxjs-extensions';
 
 import { AppRoutingModule }     from './app-routing.module';
 
@@ -29,7 +31,8 @@ import { AppRoutingModule }     from './app-routing.module';
     HomeComponent,
     DashboardComponent,
     HeroDetailComponent,
-    HeroesComponent
+    HeroesComponent,
+    HeroSearchComponent
   ],
   providers: [ HeroService ],
   bootstrap: [ AppComponent ]
