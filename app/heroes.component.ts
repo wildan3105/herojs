@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Hero } from './hero';
 import { HeroService } from './hero.service';
 @Component({
-  selector: 'my-app',
+  selector: 'my-heroes',
   template: `
     <h1>{{title}}</h1>
     <h2>My Heroes</h2>
@@ -80,4 +80,8 @@ export class AppComponent implements OnInit {
   onSelect(hero: Hero): void {
     this.selectedHero = hero;
   }
+}
+
+export class HeroesComponent implements OnInit {
+  
 }
