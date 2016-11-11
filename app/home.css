@@ -1,7 +1,12 @@
-p {
-  font-color: rgb(22, 40, 96)
+.homepage, h4 {
+  font-size: 16pt;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
 
-.homepage {
-  font-size: 16pt;
+img.display {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
