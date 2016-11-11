@@ -13,13 +13,13 @@ import { AppRoutingModule }     from './app-routing.module';
 
 
 @NgModule({
-  imports:      [
+  imports: [
       BrowserModule,
       FormsModule,
       AppRoutingModule
     ],
   declarations: [
-      AppComponent ,
+      AppComponent,
       HeroDetailComponent,
       HeroesComponent,
       DashboardComponent
