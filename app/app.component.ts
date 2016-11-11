@@ -87,8 +87,8 @@ export class Hero {
 })
 
 export class AppComponent {
-  heroes = HEROES;
   title = 'Tour of Heroes';
+  heroes = HEROES;
   selectedHero: Hero;
 
   onSelect(hero: Hero): void{
