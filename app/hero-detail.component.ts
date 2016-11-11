@@ -27,12 +27,12 @@ export class HeroDetailComponent implements OnInit {
     });
   }
 
-  goBack(): void {
-    this.location.back();
+  save(): void {
+    this.heroService.update(this.hero)
+      .then(() => this.goBack());
   }
 
-  save(): void {
-    this.HeroService.update(this.hero)
-      .thin(() => this.goBack());
+  goBack(): void {
+    this.location.back();
   }
 }
