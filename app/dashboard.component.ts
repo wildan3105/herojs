@@ -13,6 +13,8 @@ export class DashboardComponent implements OnInit {
 
   heroes: Hero[] = [];
 
+  tags:['DC', 'Marvell'];
+
   constructor(private heroService: HeroService) { }
 
   ngOnInit(): void {
