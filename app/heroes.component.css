@@ -6,7 +6,7 @@
   margin: 0 0 2em 0;
   list-style-type: none;
   padding: 0;
-  width: 15em;
+  width: 20em;
 }
 .heroes li {
   cursor: pointer;
@@ -15,7 +15,7 @@
   background-color: #EEE;
   margin: .5em;
   padding: .3em 0;
-  height: 1.6em;
+  height: 1.8em;
   border-radius: 4px;
 }
 .heroes li:hover {
@@ -64,6 +64,11 @@ button.delete {
   margin-right: .8em;
   background-color: gray !important;
   color:white;
+}
+
+.heroes .tag {
+  color: red;
+  float: left;
 }
 
 
